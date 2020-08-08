@@ -24,7 +24,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="01b-8q-8Wt">
                                 <rect key="frame" x="73.5" y="108" width="320.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="username"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iI0-Rj-dyt">
                                 <rect key="frame" x="20" y="162" width="374" height="24"/>
@@ -33,14 +33,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="ZZx-G3-Lhy">
-                                <rect key="frame" x="20" y="194" width="374" height="219"/>
+                                <rect key="frame" x="20" y="194" width="374" height="150"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="tUB-j4-PXK"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="szc-TA-Cxe">
-                                <rect key="frame" x="186" y="433" width="42" height="34"/>
+                                <rect key="frame" x="186" y="364" width="42" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Send"/>
                                 <connections>
@@ -54,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="iks-65-kmA">
-                                <rect key="frame" x="188.5" y="285" width="37" height="37"/>
+                                <rect key="frame" x="188.5" y="250.5" width="37" height="37"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -63,7 +66,7 @@
                             <constraint firstItem="ZZx-G3-Lhy" firstAttribute="top" secondItem="iI0-Rj-dyt" secondAttribute="bottom" constant="8" id="1eu-Mw-vWp"/>
                             <constraint firstItem="szc-TA-Cxe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Ds-eh-f0R"/>
                             <constraint firstItem="etJ-kB-LVw" firstAttribute="trailing" secondItem="ZZx-G3-Lhy" secondAttribute="trailing" constant="-11" id="9OP-U3-bfO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZZx-G3-Lhy" secondAttribute="bottom" constant="400" id="9dJ-Ep-qtd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZZx-G3-Lhy" secondAttribute="bottom" id="9dJ-Ep-qtd"/>
                             <constraint firstItem="ZZx-G3-Lhy" firstAttribute="trailing" secondItem="01b-8q-8Wt" secondAttribute="trailing" id="D3p-dF-eQC"/>
                             <constraint firstItem="ZZx-G3-Lhy" firstAttribute="leading" secondItem="etJ-kB-LVw" secondAttribute="leading" constant="-11" id="Jpk-jj-Q7k"/>
                             <constraint firstItem="iI0-Rj-dyt" firstAttribute="top" secondItem="Myq-Yu-gYF" secondAttribute="bottom" constant="20" id="OR9-o0-NPt"/>

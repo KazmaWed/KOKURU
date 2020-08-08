@@ -45,8 +45,12 @@ class SendViewController: UIViewController, UITextViewDelegate, UITextFieldDeleg
     
     //リターンキータップ時
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        //ファーストレスンダーがID -> Message
-        closeKeyboard()
+        
+        //ファーストレスンダーがID -> Messageに移行
+        if userIdTextField.isFirstResponder {
+            messageTextView.becomeFirstResponder()
+        }
+        
         return true
     }
     
