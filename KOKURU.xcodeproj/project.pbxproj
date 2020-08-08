@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47500FB124D551A60003502F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47500FB024D551A60003502F /* AppDelegate.swift */; };
+		47500FB324D551A60003502F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47500FB224D551A60003502F /* SceneDelegate.swift */; };
+		47500FB524D551A60003502F /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47500FB424D551A60003502F /* SendViewController.swift */; };
+		47500FB824D551A60003502F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47500FB624D551A60003502F /* Main.storyboard */; settings = {ASSET_TAGS = (0, ); }; };
+		47500FBA24D551AB0003502F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47500FB924D551AB0003502F /* Assets.xcassets */; };
+		47500FBD24D551AB0003502F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47500FBB24D551AB0003502F /* LaunchScreen.storyboard */; };
+		47500FC524D5523D0003502F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47500FC424D5523D0003502F /* GoogleService-Info.plist */; };
+		47500FC724D571830003502F /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47500FC624D571830003502F /* InboxViewController.swift */; };
+		47500FCB24D574700003502F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47500FCA24D574700003502F /* SettingViewController.swift */; };
+		478548AE24D97A800061ECA9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478548AD24D97A800061ECA9 /* TabBarViewController.swift */; };
+		478548B424D98FC80061ECA9 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478548B324D98FC80061ECA9 /* MessageViewController.swift */; };
+		47A08F9C24D9372400936C44 /* StructuresAndStatics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A08F9B24D9372400936C44 /* StructuresAndStatics.swift */; };
+		47C9BFC624DD37C100298096 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C9BFC524DD37C100298096 /* SavedViewController.swift */; };
+		5C304DE64ED250B586D8760D /* Pods_KOKURU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8288595226D9104A59E309 /* Pods_KOKURU.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47500FAD24D551A60003502F /* KOKURU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOKURU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47500FB024D551A60003502F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47500FB224D551A60003502F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47500FB424D551A60003502F /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		47500FB724D551A60003502F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47500FB924D551AB0003502F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47500FBC24D551AB0003502F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47500FBE24D551AB0003502F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47500FC424D5523D0003502F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		47500FC624D571830003502F /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		47500FCA24D574700003502F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		478548AD24D97A800061ECA9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		478548B324D98FC80061ECA9 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		47A08F9B24D9372400936C44 /* StructuresAndStatics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresAndStatics.swift; sourceTree = "<group>"; };
+		47C9BFC524DD37C100298096 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		5E8288595226D9104A59E309 /* Pods_KOKURU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOKURU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6163DABAF06CE6C4D56FA531 /* Pods-KOKURU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKURU.debug.xcconfig"; path = "Target Support Files/Pods-KOKURU/Pods-KOKURU.debug.xcconfig"; sourceTree = "<group>"; };
+		7D9E802767051FCC52A3B07F /* Pods-KOKURU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOKURU.release.xcconfig"; path = "Target Support Files/Pods-KOKURU/Pods-KOKURU.release.xcconfig"; sourceTree = "<group>"; };
+		96CBA81405FB38936E84B397 /* Pods-Vocab App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocab App.debug.xcconfig"; path = "Target Support Files/Pods-Vocab App/Pods-Vocab App.debug.xcconfig"; sourceTree = "<group>"; };
+		A21054F12D4CBCCF9FC705E5 /* Pods-Vocab App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vocab App.release.xcconfig"; path = "Target Support Files/Pods-Vocab App/Pods-Vocab App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47500FAA24D551A60003502F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C304DE64ED250B586D8760D /* Pods_KOKURU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373C92C61DB35C4C953DCC5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E8288595226D9104A59E309 /* Pods_KOKURU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47500FA424D551A60003502F = {
+			isa = PBXGroup;
+			children = (
+				47500FAF24D551A60003502F /* KOKURU */,
+				47500FAE24D551A60003502F /* Products */,
+				D84EFB49F3E0EEA35CB6F90E /* Pods */,
+				373C92C61DB35C4C953DCC5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47500FAE24D551A60003502F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47500FAD24D551A60003502F /* KOKURU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47500FAF24D551A60003502F /* KOKURU */ = {
+			isa = PBXGroup;
+			children = (
+				47500FB024D551A60003502F /* AppDelegate.swift */,
+				47500FB224D551A60003502F /* SceneDelegate.swift */,
+				478548AD24D97A800061ECA9 /* TabBarViewController.swift */,
+				47500FB424D551A60003502F /* SendViewController.swift */,
+				47500FC624D571830003502F /* InboxViewController.swift */,
+				478548B324D98FC80061ECA9 /* MessageViewController.swift */,
+				47C9BFC524DD37C100298096 /* SavedViewController.swift */,
+				47500FCA24D574700003502F /* SettingViewController.swift */,
+				47A08F9B24D9372400936C44 /* StructuresAndStatics.swift */,
+				47500FB624D551A60003502F /* Main.storyboard */,
+				47500FB924D551AB0003502F /* Assets.xcassets */,
+				47500FBB24D551AB0003502F /* LaunchScreen.storyboard */,
+				47500FBE24D551AB0003502F /* Info.plist */,
+				47500FC424D5523D0003502F /* GoogleService-Info.plist */,
+			);
+			path = KOKURU;
+			sourceTree = "<group>";
+		};
+		D84EFB49F3E0EEA35CB6F90E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CBA81405FB38936E84B397 /* Pods-Vocab App.debug.xcconfig */,
+				A21054F12D4CBCCF9FC705E5 /* Pods-Vocab App.release.xcconfig */,
+				6163DABAF06CE6C4D56FA531 /* Pods-KOKURU.debug.xcconfig */,
+				7D9E802767051FCC52A3B07F /* Pods-KOKURU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47500FAC24D551A60003502F /* KOKURU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47500FC124D551AB0003502F /* Build configuration list for PBXNativeTarget "KOKURU" */;
+			buildPhases = (
+				7AF96892C017997E04FB1583 /* [CP] Check Pods Manifest.lock */,
+				47500FA924D551A60003502F /* Sources */,
+				47500FAA24D551A60003502F /* Frameworks */,
+				47500FAB24D551A60003502F /* Resources */,
+				164EB7FCA3DA6D1431E6F538 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KOKURU;
+			productName = "Vocab App";
+			productReference = 47500FAD24D551A60003502F /* KOKURU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47500FA524D551A60003502F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					0,
+				);
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "KAZMA WED";
+				TargetAttributes = {
+					47500FAC24D551A60003502F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 47500FA824D551A60003502F /* Build configuration list for PBXProject "KOKURU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47500FA424D551A60003502F;
+			productRefGroup = 47500FAE24D551A60003502F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47500FAC24D551A60003502F /* KOKURU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47500FAB24D551A60003502F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47500FBD24D551AB0003502F /* LaunchScreen.storyboard in Resources */,
+				47500FC524D5523D0003502F /* GoogleService-Info.plist in Resources */,
+				47500FBA24D551AB0003502F /* Assets.xcassets in Resources */,
+				47500FB824D551A60003502F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		164EB7FCA3DA6D1431E6F538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKURU/Pods-KOKURU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KOKURU/Pods-KOKURU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KOKURU/Pods-KOKURU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF96892C017997E04FB1583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KOKURU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47500FA924D551A60003502F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478548AE24D97A800061ECA9 /* TabBarViewController.swift in Sources */,
+				47500FB524D551A60003502F /* SendViewController.swift in Sources */,
+				478548B424D98FC80061ECA9 /* MessageViewController.swift in Sources */,
+				47C9BFC624DD37C100298096 /* SavedViewController.swift in Sources */,
+				47500FB124D551A60003502F /* AppDelegate.swift in Sources */,
+				47500FB324D551A60003502F /* SceneDelegate.swift in Sources */,
+				47A08F9C24D9372400936C44 /* StructuresAndStatics.swift in Sources */,
+				47500FC724D571830003502F /* InboxViewController.swift in Sources */,
+				47500FCB24D574700003502F /* SettingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47500FB624D551A60003502F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47500FB724D551A60003502F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47500FBB24D551AB0003502F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47500FBC24D551AB0003502F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47500FBF24D551AB0003502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47500FC024D551AB0003502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47500FC224D551AB0003502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6163DABAF06CE6C4D56FA531 /* Pods-KOKURU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GML38ZJDQG;
+				INFOPLIST_FILE = "$(SRCROOT)/KOKURU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.harinezumicamera.KOKURU;
+				PRODUCT_NAME = KOKURU;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47500FC324D551AB0003502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9E802767051FCC52A3B07F /* Pods-KOKURU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GML38ZJDQG;
+				INFOPLIST_FILE = "$(SRCROOT)/KOKURU/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.harinezumicamera.KOKURU;
+				PRODUCT_NAME = KOKURU;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47500FA824D551A60003502F /* Build configuration list for PBXProject "KOKURU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47500FBF24D551AB0003502F /* Debug */,
+				47500FC024D551AB0003502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47500FC124D551AB0003502F /* Build configuration list for PBXNativeTarget "KOKURU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47500FC224D551AB0003502F /* Debug */,
+				47500FC324D551AB0003502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47500FA524D551A60003502F /* Project object */;
+}
